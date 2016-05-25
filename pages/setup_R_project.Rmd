@@ -4,6 +4,18 @@ output:
     variant: markdown_github
 ---
 
+
+
+### Shortcuts on the desktop
+
+RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
+
+- Delete the shortcuts to R (if any) on your desktop 
+
+- Put a shortcut to RStudio on the desktop 
+
+
+
 ### Set up an R project 
 
 - Login with your usual user name. 
@@ -15,6 +27,8 @@ example, C:/Users/layton/Documents/courses/me447.
 worry. We’re about to take care of that. 
 
 - Create a new RStudio Project using File menu > New Project > Existing Directory. Use the Browse button to find the course folder you just made. Select that folder > Create Project. 
+
+
 
 ### Create an .Renviron file 
 
@@ -34,9 +48,13 @@ File.
 
 - Create a new directory C:/R/library. (That is, in C: create a folder named R. In R create a folder named library.) This is the directory pointed to by the .Renviron file.
 
+
+
 ### For new RStudio projects 
 
 - Whenever you create a new RStudio Project, paste a copy of the .Renviron file in the project root directory. 
+
+
 
 ### Testing your installation
 
@@ -70,5 +88,5 @@ C:/Users/layton/AppData/Local/Temp/Rtmpwr9oHD/downloaded_packages
 >
 ```
 
-I find it convenient to have an RStudio shortcut on my desktop and to delete the shortcuts to R. 
+
 

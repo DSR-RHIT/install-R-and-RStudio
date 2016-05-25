@@ -1,3 +1,11 @@
+### Shortcuts on the desktop
+
+RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
+
+-   Delete the shortcuts to R (if any) on your desktop
+
+-   Put a shortcut to RStudio on the desktop
+
 ### Set up an R project
 
 -   Login with your usual user name.
@@ -58,5 +66,3 @@ The downloaded binary packages are in
 C:/Users/layton/AppData/Local/Temp/Rtmpwr9oHD/downloaded_packages
 >
 ```
-
-I find it convenient to have an RStudio shortcut on my desktop and to delete the shortcuts to R.
