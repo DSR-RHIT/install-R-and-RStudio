@@ -25,3 +25,11 @@ RStudio is a free, open-source interface for R that includes a console, a syntax
 -   In Windows, install the software in *C:/Program Files*. Accept all defaults.
 
 -   Windows users, logout/signout of localmgr.
+
+### Shortcuts on the desktop
+
+RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
+
+-   Delete the shortcuts to R (if any) on your desktop
+
+-   Put a shortcut to RStudio on the desktop

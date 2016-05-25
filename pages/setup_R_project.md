@@ -1,11 +1,3 @@
-### Shortcuts on the desktop
-
-RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
-
--   Delete the shortcuts to R (if any) on your desktop
-
--   Put a shortcut to RStudio on the desktop
-
 ### Set up an R project
 
 -   Login with your usual user name.
