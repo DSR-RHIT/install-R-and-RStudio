@@ -1,4 +1,4 @@
-### Install R
+### install R
 
 *Mac and Linux users.*
 
@@ -14,7 +14,7 @@
 
 -   Install the software in *C:/Program Files*. Accept all defaults.
 
-### Install RStudio
+### install RStudio
 
 RStudio is a free, open-source interface for R that includes a console, a syntax-highlighting editor, direct code execution, and tools for plotting, history, debugging, and workspace management.
 
@@ -26,7 +26,7 @@ RStudio is a free, open-source interface for R that includes a console, a syntax
 
 -   Windows users, logout/signout of localmgr.
 
-### Shortcuts on the desktop
+### shortcuts on the desktop
 
 RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
 

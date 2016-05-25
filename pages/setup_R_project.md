@@ -1,4 +1,4 @@
-### Set up an R project
+### set up an R project
 
 -   Login with your usual user name.
 
@@ -8,7 +8,7 @@
 
 -   Create a new RStudio Project using File menu &gt; New Project &gt; Existing Directory. Use the Browse button to find the course folder you just made. Select that folder &gt; Create Project.
 
-### Create an .Renviron file
+### create an .Renviron file
 
 These steps are Windows-specific (I'm not sure if the problem needs solving in Linux or Mac platforms.)
 
@@ -24,11 +24,11 @@ The purpose of the .Renviron file is to establish a library for R packages that 
 
 -   Create a new directory C:/R/library. (That is, in C: create a folder named R. In R create a folder named library.) This is the directory pointed to by the .Renviron file.
 
-### For new RStudio projects
+### for new RStudio projects
 
 -   Whenever you create a new RStudio Project, paste a copy of the .Renviron file in the project root directory.
 
-### Testing your installation
+### testing your installation
 
 -   Close RStudio
 
