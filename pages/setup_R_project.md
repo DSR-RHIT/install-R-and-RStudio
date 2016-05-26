@@ -4,7 +4,7 @@
 
 -   Create a folder for the course in your preferred directory. For example, C:/Users/layton/Documents/courses/me447.
 
--   Open RStudio. Some error statements will probably appear. No worry. We’re about to take care of that.
+-   Open RStudio. Some error statements will probably appear. No worry. Weâ€™re about to take care of that.
 
 -   Create a new RStudio Project using File menu &gt; New Project &gt; Existing Directory. Use the Browse button to find the course folder you just made. Select that folder &gt; Create Project.
 
@@ -20,7 +20,7 @@ The purpose of the .Renviron file is to establish a library for R packages that 
 
     `R_LIBS_USER="C:/R/library"`
 
--   Save the file using the filename .Renviron in your course folder (don’t forget the dot that starts the filename). For example, C:/Users/layton/Documents/courses/me447/.Renviron
+-   Save the file using the filename .Renviron in your course folder (donâ€™t forget the dot that starts the filename). For example, C:/Users/layton/Documents/courses/me447/.Renviron
 
 -   Create a new directory C:/R/library. (That is, in C: create a folder named R. In R create a folder named library.) This is the directory pointed to by the .Renviron file.
 
@@ -38,11 +38,11 @@ The purpose of the .Renviron file is to establish a library for R packages that 
 
 -   If the course project is closed, open it with File &gt; Open Project. No errors?
 
--   Now let’s see if the library path you made works. The RStudio interface is divided into 4 “window panes”. In the lower right pane, select the Packages tab. Click Install.
+-   Now letâ€™s see if the library path you made works. The RStudio interface is divided into 4 â€œwindow panesâ€. In the lower right pane, select the Packages tab. Click Install.
 
 -   In the dialog box that appears, the Install to Library strip should indicate `C:/R/library [Default]`.
 
--   In the Packages entry box, type plyr and click Install. If all goes well, you’ll see something like this in the lower left pane (the “R Console”).
+-   In the Packages entry box, type plyr and click Install. If all goes well, youâ€™ll see something like this in the lower left pane (the â€œR Consoleâ€).
 
 ``` r
 Installing package into "C:/R/library" 
