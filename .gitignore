@@ -1,4 +1,5 @@
 *.Rproj
+*.html
 .Renviron
 render_rmd_files.R
 
