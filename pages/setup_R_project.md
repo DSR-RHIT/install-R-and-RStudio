@@ -14,10 +14,7 @@ Windows users (I do not know if these steps are necessary for Mac and Linux user
 
 -   Create a new directory C:/R/library
 -   In RStudio, File menu &gt; New File &gt; Text File
--   In the text file, type
-
-    `R_LIBS_USER="C:/R/library"`
-
+-   In the text file, type `R_LIBS_USER="C:/R/library"`
 -   Save As... to your project root directory, using the filename .Renviron
 
 ### for new RStudio projects
