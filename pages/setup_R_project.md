@@ -2,27 +2,23 @@
 
 -   Login with your usual user name.
 
--   Create a folder for the course in your preferred directory. For example, C:/Users/layton/Documents/courses/me447.
+-   For the new project---for example, an article, a workshop, a course, or a contract, whatever you wish to define as a "project"---create a new folder in your preferred directory.
 
--   Open RStudio. Some error statements will probably appear. No worry. We're about to take care of that.
-
--   Create a new RStudio Project using File menu &gt; New Project &gt; Existing Directory. Use the Browse button to find the course folder you just made. Select that folder &gt; Create Project.
+-   Open RStudio. File menu &gt; New Project &gt; Existing Directory. Use the Browse button to find the folder you just created, then Select &gt; Create Project.
 
 ### create an .Renviron file
 
-These steps are Windows-specific (I'm not sure if the problem needs solving in Linux or Mac platforms.)
+These steps allow you to install future versions of R without having to reinstall all the packages you use.
 
-The purpose of the .Renviron file is to establish a library for R packages that is independent of the R software. Then you can update R to the latest version and not have to re-install all the packages you use.
+Windows users (I do not know if these steps are necessary for Mac and Linux users)
 
--   In RStudio, open a new text file using File menu &gt; New File &gt; Text File.
-
--   Write the following line in the text file
+-   Create a new directory C:/R/library
+-   In RStudio, File menu &gt; New File &gt; Text File
+-   In the text file, type
 
     `R_LIBS_USER="C:/R/library"`
 
--   Save the file using the filename .Renviron in your course folder (donâ€™t forget the dot that starts the filename). For example, C:/Users/layton/Documents/courses/me447/.Renviron
-
--   Create a new directory C:/R/library. (That is, in C: create a folder named R. In R create a folder named library.) This is the directory pointed to by the .Renviron file.
+-   Save As... to your project root directory, using the filename .Renviron
 
 ### for new RStudio projects
 
@@ -38,15 +34,14 @@ The purpose of the .Renviron file is to establish a library for R packages that 
 
 -   If the course project is closed, open it with File &gt; Open Project. No errors?
 
--   Now let's see if the library path you made works. The RStudio interface is divided into 4 window panes. In the lower right pane, select the Packages tab. Click Install.
+-   Now let's see if the library path you made works. The RStudio interface is divided into 4 window panes. In the lower right pane, select Packages &gt; Install
 
 -   In the dialog box that appears, the Install to Library strip should indicate `C:/R/library [Default]`.
 
 -   In the Packages entry box, type plyr and click Install. If all goes well, you'll see something like this in the lower left pane (the R Console).
 
 ``` r
-Installing package into "C:/R/library" 
-(as "lib" is unspecified)
+Installing package into "C:/R/library" (as "lib" is unspecified)
 trying URL "http://ftp.ussg.iu.edu/CRAN/bin/windows/contrib/3.1/plyr_1.8.1.zip"
 Content type "application/zip" length 1149242 bytes (1.1 Mb)
 opened URL
@@ -54,7 +49,5 @@ downloaded 1.1 Mb
 
 package "plyr" successfully unpacked and MD5 sums checked
 
-The downloaded binary packages are in
-C:/Users/layton/AppData/Local/Temp/Rtmpwr9oHD/downloaded_packages
 >
 ```
