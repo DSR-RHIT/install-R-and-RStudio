@@ -14,7 +14,7 @@ output:
 example, C:/Users/layton/Documents/courses/me447. 
 
 - Open RStudio. Some error statements will probably appear. No
-worry. We’re about to take care of that. 
+worry. We're about to take care of that. 
 
 - Create a new RStudio Project using File menu > New Project > Existing Directory. Use the Browse button to find the course folder you just made. Select that folder > Create Project. 
 
