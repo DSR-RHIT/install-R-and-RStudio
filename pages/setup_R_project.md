@@ -38,11 +38,11 @@ The purpose of the .Renviron file is to establish a library for R packages that 
 
 -   If the course project is closed, open it with File &gt; Open Project. No errors?
 
--   Now letâ€™s see if the library path you made works. The RStudio interface is divided into 4 â€œwindow panesâ€. In the lower right pane, select the Packages tab. Click Install.
+-   Now let's see if the library path you made works. The RStudio interface is divided into 4 window panes. In the lower right pane, select the Packages tab. Click Install.
 
 -   In the dialog box that appears, the Install to Library strip should indicate `C:/R/library [Default]`.
 
--   In the Packages entry box, type plyr and click Install. If all goes well, youâ€™ll see something like this in the lower left pane (the â€œR Consoleâ€).
+-   In the Packages entry box, type plyr and click Install. If all goes well, you'll see something like this in the lower left pane (the R Console).
 
 ``` r
 Installing package into "C:/R/library" 
