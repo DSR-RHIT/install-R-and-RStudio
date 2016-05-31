@@ -1,10 +1,11 @@
-### install R
+### install R and RStudio
 
-*Mac and Linux users.*
+For non-Windows users, try these instructions (I have not tested them, so please let me know if they work for you or not).
 
--   From the Comprehensive R Archive Network [(CRAN)](http://cran.us.r-project.org/), select *Download R for Linux* or *Download R for (Mac) OSX* and follow the instructions.
+-   [Mac OS](https://rud.is/b/2015/10/20/installing-r-on-os-x/)
+-   [Linux](https://www.datascienceriot.com/how-to-install-r-in-linux-ubuntu-16-04-xenial-xerus/kris/)
 
-*Windows*
+Windows-users (these have been student-tested)
 
 -   If you are a student or faculty member whose computer is maintained by an IT department, you will probably have a localmgr login account on your computer. If you do, you will have to login as the localmgr to install R and RStudio---it's not sufficient to have admin privileges on your usual login username. You must use localmgr.
 
@@ -14,22 +15,18 @@
 
 -   Install the software in *C:/Program Files*. Accept all defaults.
 
-### install RStudio
+-   Stay logged in as localmgr.
 
-RStudio is a free, open-source interface for R that includes a console, a syntax-highlighting editor, direct code execution, and tools for plotting, history, debugging, and workspace management.
+-   From [RStudio](http://www.rstudio.com/) &gt; Products &gt; RStudio &gt; Desktop &gt; Download RStudio Desktop &gt; and select Windows
 
--   Windows users, stay logged in as localmgr.
+-   Install the software in *C:/Program Files*. Accept all defaults.
 
--   From [RStudio](http://www.rstudio.com/) &gt; Products &gt; RStudio &gt; Desktop &gt; Download RStudio Desktop &gt; and select your platform (Windows, Mac, Linux).
-
--   In Windows, install the software in *C:/Program Files*. Accept all defaults.
-
--   Windows users, logout/signout of localmgr.
+-   logout/signout of localmgr.
 
 ### shortcuts on the desktop
 
 RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
 
--   Delete the shortcuts to R (if any) on your desktop
-
 -   Put a shortcut to RStudio on the desktop
+
+-   Delete the shortcuts to R (if any) on your desktop
