@@ -1,8 +1,12 @@
-### create an .Renviron file
+### why create an .Renviron file?
 
-These steps allow you to install future versions of R without having to reinstall all the packages you use.
+The purpose of creating this directory is to provide a home for R packages independent of the base R installation. Then when you update the R version you are using, you don't have to re-install every package, saving a lot of time.
 
-Create a new directory at the top level named "R". In that directory create a new folder named "library", for example,
+The `.Renviron` file is used to assign a path to the variable `R_LIBS` that points to a directory where R packages will be installed. When `install.packages` is called, new packages will be stored in `R_LIBS`.
+
+### instructions
+
+At the top level of your drive, create a new directory named "R". In that directory create a new folder named "library", for example,
 
 -   Windows: `C:/R/library`
 -   Linux: `~/R/library`
