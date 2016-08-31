@@ -1,8 +1,6 @@
 ### set up an R project
 
--   Login with your usual user name.
-
--   For the new project---for example, an article, a workshop, a course, or a contract, whatever you wish to define as a "project"---create a new folder in your preferred directory.
+-   For the new project---for example, a new repo, an article, a workshop, a course, or a contract, whatever you wish to define as a "project"---create a new folder in your preferred directory.
 
 -   Open RStudio. File menu &gt; New Project &gt; Existing Directory. Use the Browse button to find the folder you just created, then Select &gt; Create Project.
 
@@ -10,12 +8,16 @@
 
 These steps allow you to install future versions of R without having to reinstall all the packages you use.
 
-Windows users (I do not know if these steps are necessary for Mac and Linux users)
+Create a new directory
 
--   Create a new directory C:/R/library
--   In RStudio, File menu &gt; New File &gt; Text File
--   In the text file, type `R_LIBS_USER="C:/R/library"`
--   Save As... to your project root directory, using the filename .Renviron
+-   Windows: `C:/R/library`
+-   Linux: `~/R/library`
+
+In RStudio, File menu &gt; New File &gt; Text File.
+
+-   Windows: In the text file, type `R_LIBS_USER="C:/R/library"`
+-   Linux: In the text file, type`R_LIBS_USER="~/R/library"`
+-   Save As... using the filename `.Renviron` and save to your project directory
 
 ### for new RStudio projects
 
