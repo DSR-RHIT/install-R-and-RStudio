@@ -4,49 +4,12 @@
 
 -   Open RStudio. File menu &gt; New Project &gt; Existing Directory. Use the Browse button to find the folder you just created, then Select &gt; Create Project.
 
-### create an .Renviron file
-
-These steps allow you to install future versions of R without having to reinstall all the packages you use.
-
-Create a new directory
-
--   Windows: `C:/R/library`
--   Linux: `~/R/library`
-
-In RStudio, File menu &gt; New File &gt; Text File.
-
--   Windows: In the text file, type `R_LIBS_USER="C:/R/library"`
--   Linux: In the text file, type`R_LIBS_USER="~/R/library"`
--   Save As... using the filename `.Renviron` and save to your project directory
-
-### for new RStudio projects
-
--   Whenever you create a new RStudio Project, paste a copy of the .Renviron file in the project root directory.
-
-### testing your installation
+### test it
 
 -   Close RStudio
 
 -   Open RStudio. No error statements should appear (we hope).
 
--   If the course project is open, File &gt; Close Project. No errors?
+-   If an RStudio project is open, *File &gt; Close Project*. No errors?
 
--   If the course project is closed, open it with File &gt; Open Project. No errors?
-
--   Now let's see if the library path you made works. The RStudio interface is divided into 4 window panes. In the lower right pane, select Packages &gt; Install
-
--   In the dialog box that appears, the Install to Library strip should indicate `C:/R/library [Default]`.
-
--   In the Packages entry box, type plyr and click Install. If all goes well, you'll see something like this in the lower left pane (the R Console).
-
-``` r
-Installing package into "C:/R/library" (as "lib" is unspecified)
-trying URL "http://ftp.ussg.iu.edu/CRAN/bin/windows/contrib/3.1/plyr_1.8.1.zip"
-Content type "application/zip" length 1149242 bytes (1.1 Mb)
-opened URL
-downloaded 1.1 Mb
-
-package "plyr" successfully unpacked and MD5 sums checked
-
->
-```
+-   Open an RStudio project with *File &gt; Open Project*. No errors?
