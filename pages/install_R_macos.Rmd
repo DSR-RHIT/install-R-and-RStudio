@@ -6,14 +6,12 @@ output:
 
 ### mac OS  
 
-We haven't developed our own, student-tested guidelines for the Mac OS. Anyone who is successful and would like to contribute instructions, please let us know. (layton@rose-hulman.edu) 
-
-Otherwise, this link was recommended by a trustworthy source. 
+This link was recommended by a trustworthy source. I'm told that the trick to the Mac OS installation is to folllow the instructions carefully and to make sure you match your specific OS version exactly. 
 
 -   [Mac OS](https://rud.is/b/2015/10/20/installing-r-on-os-x/) 
 
 
-
+We haven't developed our own, student-tested guidelines for the Mac OS. Anyone who is successful and would like to contribute instructions, please let us know. (layton@rose-hulman.edu) 
 
 
 ### shortcuts on the desktop
