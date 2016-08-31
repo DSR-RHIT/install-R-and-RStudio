@@ -5,7 +5,7 @@ For non-Windows users, try these instructions (I have not tested them, so please
 -   [Mac OS](https://rud.is/b/2015/10/20/installing-r-on-os-x/)
 -   [Linux](https://www.datascienceriot.com/how-to-install-r-in-linux-ubuntu-16-04-xenial-xerus/kris/)
 
-Windows-users (these have been student-tested)
+### windows
 
 -   If you are a student or faculty member whose computer is maintained by an IT department, you will probably have a localmgr login account on your computer. If you do, you will have to login as the localmgr to install R and RStudio---it's not sufficient to have admin privileges on your usual login username. You must use localmgr.
 
@@ -21,7 +21,17 @@ Windows-users (these have been student-tested)
 
 -   Install the software in *C:/Program Files*. Accept all defaults.
 
--   logout/signout of localmgr.
+-   logout/signout of localmgr. 
+
+### linux 
+
+
+
+
+### mac OS
+
+
+
 
 ### shortcuts on the desktop
 
