@@ -1,6 +1,6 @@
 ### mac OS
 
-We haven't developed our own, student-tested guidelines for the Mac OS. Anyone who is successful and would like to contribute instructions, please let u know.
+We haven't developed our own, student-tested guidelines for the Mac OS. Anyone who is successful and would like to contribute instructions, please let us know. (<layton@rose-hulman.edu>)
 
 Otherwise, this link was recommended by a trustworthy source.
 
