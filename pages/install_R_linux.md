@@ -1,22 +1,8 @@
 ### linux
 
-This is a simplified procedure for installing R and R-studio on Ubuntu 16.04 without the use of the commandline.
+I'm not a Linux user so I can only report to you what I have found online. If you try it and find there are some corrections to be made, please the blog author, Kris Eberwein, know about it by leaving a comment on his blog.
 
--   Use Ubuntu Software Center to install Synaptic Package Manager (requires root previlage).
-
--   Open Synaptic Package Manager and search for r-base.
-
--   Click on r-base and select Mark for Installation.
-
--   Click on Apply. (R and its dependencies should be installed.)
-
--   I found you also need to install libcurl3 package. Search and install libcurl3 using Synaptic Package Manager.
-
--   Download RStudio by going to [R Studio Download Page](https://www.rstudio.com/products/rstudio/download3/) and selecting 0.99.903 - Ubuntu 12.04+/Debian 8+ (64-bit)
-
--   Right click the downloaded file for RStudio and select Open With Software Install. Then select install.
-
--   [Help if you need it](https://www.datascienceriot.com/how-to-install-r-in-linux-ubuntu-16-04-xenial-xerus/kris/)
+(2017-05-24)[How to Install R Ubuntu 16.04 Xenial](http://www.datascienceriot.com//r/install-ubuntu16/)
 
 ### shortcuts on the desktop
 
