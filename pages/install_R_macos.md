@@ -1,15 +1,14 @@
-### mac OS
+### mac os
 
-This link was recommended by a trustworthy source. I'm told that the trick to the Mac OS installation is to folllow the instructions carefully and to make sure you match your specific OS version exactly.
+I'm not a MacOS user so I can only report to you what I have found online.
 
--   [Mac OS](https://rud.is/b/2015/10/20/installing-r-on-os-x/)
+If you follow the instructions linked below and encounter problems, you might try asking Michael Galarnyk, the blog author, for help.
 
-We haven't developed our own, student-tested guidelines for the Mac OS. Anyone who is successful and would like to contribute instructions, please let us know. (<layton@rose-hulman.edu>)
+\[Install R and RStudio on Mac\](<https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4>
 
 ### shortcuts on the desktop
 
 RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
 
 -   Put a shortcut to RStudio on the desktop
-
 -   Delete the shortcuts to R (if any) on your desktop
