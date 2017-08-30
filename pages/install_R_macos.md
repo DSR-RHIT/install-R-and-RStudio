@@ -4,7 +4,7 @@ I'm not a MacOS user so I can only report to you what I have found online.
 
 If you follow the instructions linked below and encounter problems, you might try asking Michael Galarnyk, the blog author, for help.
 
-\[Install R and RStudio on Mac\](<https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4>
+[Install R and RStudio on Mac](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4)
 
 ### shortcuts on the desktop
 
