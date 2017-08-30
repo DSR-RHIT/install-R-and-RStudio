@@ -9,5 +9,4 @@ I'm not a Linux user so I can only report to you what I have found online. If yo
 RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
 
 -   Put a shortcut to RStudio on the desktop
-
 -   Delete the shortcuts to R (if any) on your desktop
