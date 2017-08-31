@@ -53,5 +53,13 @@ package "plyr" successfully unpacked and MD5 sums checked
 >
 ```
 
+### next, setup an R Project
 
+If you haven't setup your course folder as an R Project, please do so now. 
+
+- [set up an R Project](setup_R_project.md) 
+
+---
+
+[main page](../README.md)
 

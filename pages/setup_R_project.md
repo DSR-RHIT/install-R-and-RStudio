@@ -13,3 +13,7 @@
 -   If an RStudio project is open, *File &gt; Close Project*. No errors?
 
 -   Open an RStudio project with *File &gt; Open Project*. No errors?
+
+------------------------------------------------------------------------
+
+[main page](../README.md)

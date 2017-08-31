@@ -23,7 +23,9 @@ output:
 - Open an RStudio project with *File > Open Project*. No
 errors? 
 
+---
 
+[main page](../README.md)
 
 
 

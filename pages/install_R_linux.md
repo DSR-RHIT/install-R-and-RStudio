@@ -17,3 +17,7 @@ RStudio is an integrated development environment (IDE) for R, so I rarely run R 
 First, [create an Renviron file](https://github.com/DSR-RHIT/install-R-and-RStudio/blob/master/pages/setup_Renviron.md).
 
 Second, [set up an R project](https://github.com/DSR-RHIT/install-R-and-RStudio/blob/master/pages/setup_R_project.md)
+
+------------------------------------------------------------------------
+
+[main page](../README.md)
