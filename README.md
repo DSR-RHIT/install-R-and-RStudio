@@ -6,5 +6,5 @@
 
 ### set up a project
 
--   [create an Renviron file](pages/setup_Renviron.md)
+-   [create top level package library](pages/setup_Renviron.md)
 -   [set up an R Project](pages/setup_R_project.md)

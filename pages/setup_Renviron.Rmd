@@ -4,7 +4,7 @@ output:
     variant: markdown_github
 ---
 
-### a top-level *R/library* directory
+### create top level package library
 
 At the top level of your drive, create a new directory named "R". In that directory create a new folder named "library", for example,  
 
