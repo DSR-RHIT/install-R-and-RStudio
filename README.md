@@ -8,3 +8,7 @@
 
 -   [create top level package library](pages/setup_Renviron.md)
 -   [set up an R Project](pages/setup_R_project.md)
+
+### finished
+
+You may return to your regularly scheduled browsing.
