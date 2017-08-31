@@ -1,4 +1,4 @@
-### a top-level \`*R/library* directory
+### a top-level *R/library* directory
 
 At the top level of your drive, create a new directory named "R". In that directory create a new folder named "library", for example,
 
@@ -11,12 +11,17 @@ The purpose of creating this directory is to provide a home for R packages indep
 
 The `.Renviron` file is a text file that directs R packages to be installed in the *R/library* directory you just created.
 
-To create the file, with RStudio open, create a new text file, *File menu &gt; New File &gt; Text File*. Write one line of text in the file,
+To create the file, with RStudio open, create a new text file,
 
--   Windows: type `R_LIBS_USER="C:/R/library"`
--   Linux: type`R_LIBS_USER="~/R/library"`
+*File menu &gt; New File &gt; Text File*.
 
-Then save the file to your project directory using the filename *.Renviron*
+Save the file to your project directory using the filename *.Renviron*
+
+In this file, write one line of text,
+
+-   Windows: `R_LIBS_USER="C:/R/library"`
+
+-   Linux: `R_LIBS_USER="~/R/library"`
 
 Whenever you create a new RStudio Project, paste a copy of the *.Renviron* file in the project root directory.
 

@@ -9,6 +9,7 @@ If you follow the instructions linked below and encounter problems, you might tr
 RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
 
 -   Put a shortcut to RStudio on the desktop
+
 -   Delete the shortcuts to R (if any) on your desktop
 
 ### when the installation is complete
