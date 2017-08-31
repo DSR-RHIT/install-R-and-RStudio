@@ -22,6 +22,8 @@ output:
 
 - logout/signout of localmgr. 
 
+If you followed these instructions carefully and encountered a problem, please let me know at <layton@rose-hulman.edu>.  The sooner we can fix the instructions, the fewer problems other students will encounter. 
+
 
 
 ### shortcuts on the desktop

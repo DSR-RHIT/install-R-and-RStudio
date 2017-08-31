@@ -16,6 +16,8 @@
 
 -   logout/signout of localmgr.
 
+If you followed these instructions carefully and encountered a problem, please let me know at <layton@rose-hulman.edu>. The sooner we can fix the instructions, the fewer problems other students will encounter.
+
 ### shortcuts on the desktop
 
 RStudio is an integrated development environment (IDE) for R, so I rarely run R directly. For this reason, I suggest
