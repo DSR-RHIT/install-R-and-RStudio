@@ -4,30 +4,28 @@ output:
     variant: markdown_github
 ---
 
-### why create an .Renviron file?  
-
-The purpose of creating this directory is to provide a home for R packages independent of the base R installation. Then when you update the R version you are using, you don't have to re-install every package, saving a lot of time. 
-
-The `.Renviron` file is used to assign a path to the variable `R_LIBS` that points to a directory where R packages will be installed. When `install.packages` is called, new packages will be stored in `R_LIBS`.
-
-
-### instructions 
+### a top-level `*R/library* directory
 
 At the top level of your drive, create a new directory named "R". In that directory create a new folder named "library", for example,  
 
 - Windows: `C:/R/library` 
 - Linux: `~/R/library` 
 
-In RStudio, open a new text file,  *File menu > New File >  Text File*.  Write one line of text in the file, 
+The purpose of creating this directory is to provide a home for R packages independent of the base R installation. Then when you update the R version you are using, you don't have to reinstall every package, saving a lot of time. 
+
+### the *.Renviron* file 
+
+The `.Renviron` file is a text file that directs R packages to be installed in the *R/library* directory you just created. 
+
+To create the file, with RStudio open, create a new text file,  *File menu > New File >  Text File*.  Write one line of text in the file, 
 
 - Windows:   type `R_LIBS_USER="C:/R/library"` 
 - Linux: type`R_LIBS_USER="~/R/library"` 
-- Save As... using the filename `.Renviron` and save to your project directory 
 
+Then save the file to your project directory using the filename *.Renviron*  
+ 
+Whenever you create a new RStudio Project, paste a copy of the *.Renviron* file in the project root directory. 
 
-### for new RStudio projects 
-
-- Whenever you create a new RStudio Project, paste a copy of the .Renviron file in the project root directory. 
 
 
 ### test it
